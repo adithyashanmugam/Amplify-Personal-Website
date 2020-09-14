@@ -1,0 +1,94 @@
+const useStyles = makeStyles({
+  fullscreen: {
+    width: '100vw',
+    height: '100vw'
+  },
+  superCentered: {
+    display: 'grid',
+    placeItems: 'center'
+  },
+  dPancackeContainer: {
+    display: 'flex',
+    flexWrap: 'wrap',
+    justifyContent: 'center'
+  },
+  dPancackeItem: {
+    flex: '1 0 250px',
+    margin: '5px',
+    backgroundColor: '#9f21ff'
+  },
+  sidebar: {
+    display: 'grid',
+    gridTemplateColumns: "minmax(300px, 50%) auto"
+  },
+  pancackeStack: {
+    display: 'grid',
+    gridTemplateRows: 'auto 1fr auto'
+  },
+  holyGrailContainer: {
+    display: 'grid',
+    gridTemplate: 'auto 100px auto / auto 200px auto'
+  },
+  holyGrailHeader: {
+    padding: '2rem',
+    gridColumn: '1/4'
+  },
+  holyGrailLeft: {
+    gridColumn: '1/2'
+  },
+  holyGrailMiddle: {
+    gridColumn: '2/3'
+  },
+  holyGrailRight: {
+    gridColumn: '3/4'
+  },
+  holyGrailFooter: {
+    gridColumn: '1/4'
+  },
+  spanGridContainer: {
+    display: 'grid',
+    gridTemplateColumns: 'repeat(12, 1fr)'
+  },
+  span12: {
+    gridColumn: '1/13'
+  },
+  span3: {
+    gridColumn: '4/7'
+  },
+  RAM: {
+    display: 'grid',
+    gridGap: '1rem',
+    gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))' //'repeat(auto-fill, minmax(200px, 1fr))'
+  },
+  lineUpContainer: {
+    height: 'auto',
+    display: 'grid',
+    gridGap: '1rem',
+    gridTemplateColumns: 'repeat(3, 1fr)'
+  },
+  lineUpCard: {
+    display: 'flex',
+    flexDirection: 'column',
+    padding: '1rem',
+    justify: 'space-between'
+  },
+  lineUpVisual: {
+    height: '100px',
+    width: '100%',
+    backgroundColor: 'blue'
+  },
+  clampCard: {
+    width: 'clamp(23ch, 50%, 40ch)',
+    display: 'flex',
+    flexDirection: 'column',
+    padding: '1rem'
+  },
+  aspectRatioCard: {
+    width: '50%',
+    display: 'flex', 
+    flexDirection: 'column'
+  },
+  aspectRatioVisual: {
+    aspectRatio: '16 / 9',
+  }
+})
