@@ -8,6 +8,7 @@ import './test.css'
 import theme from './theme'
 import AboutMe from './aboutme'
 import {LinkedIn, GitHub} from '@material-ui/icons'
+import {withAuthenticator, AmplifySignOut} from '@aws-amplify/ui-react'
 
 const scrollToRef = (ref) => {
   console.log(document.documentElement.scrollTop)
@@ -16,7 +17,7 @@ const scrollToRef = (ref) => {
   window.scroll(0, ref.current.offsetTop)
 }
 
-export default props => {
+export default (props) => {
   const [openResume, setOpenResume] = useState(false)
   const [tabValue, setTabValue] = useState(0)
   const [navValue, setNavValue] = useState('home')
@@ -122,7 +123,7 @@ export default props => {
       <div className='image1' ref={homeref}>
         
           <div className='intro'>
-            <p className='intro-text'>HELLO, I'M ADITHYA.</p>
+            <p className='intro-text'>HELLO, I'M ADITHYA SHANMUGAM.</p>
             <p className='intro-text-2'>I BUILD THINGS FOR THE WEB.</p>
           </div>
 
@@ -204,6 +205,7 @@ export default props => {
           </Grid>
         </div>
         
+        {/* <AmplifySignOut /> */}
       </div>
     </ThemeProvider>
   )
