@@ -124,7 +124,7 @@ export default (props) => {
         
           <div className='intro'>
             <p className='intro-text'>HELLO, I'M ADITHYA SHANMUGAM.</p>
-            <p className='intro-text-2'>I BUILD THINGS FOR THE WEB.</p>
+            <p className='intro-text-2'>I WORK WITH NUMBERS.</p>
           </div>
 
           <a class="ca3-scroll-down-link ca3-scroll-down-arrow" data-ca3_iconfont="ETmodules" data-ca3_icon=""></a>
@@ -137,18 +137,19 @@ export default (props) => {
               <p className='aboutme-header'>About Me</p>
             </Grid>
             <Grid item>
-              <div className='aboutme-description'>
-                <p>Hi! I'm Adithya, a software developer based in San Jose, CA.</p>
-                <p>I specialize in building products for the web, whether they be static websites or dynamic web applications. I enjoy creating visually stunning experiences on all of my projects.</p>
-                <p>Currently, I attend UC Irvine remotely and am interning at myElth. My interests go far beyond web development and I am always looking for new projects!</p>
+            <div className='aboutme-description'>
+                <p>Hi! I'm Adithya, a software developer and aspiring data scientist based in San Jose, CA.</p>
+                <p>I am passionate about data science and enjoy working with artificial intelligence and machine learning across a variety of fields. I am particularly interested in the applications of AI in sports analytics.</p>
+                <p>I also specialize in building products for the web, whether they be static websites or dynamic web applications. I enjoy creating visually stunning experiences on all of my projects.</p>
+                <p>Currently, I attend UC Irvine remotely. My interests go far beyond what I've mentioned above and I am always looking for new projects!</p>
                 <p>Recently, I've worked with:</p>
                 <ul>
-                  <li>JavaScript</li>
-                  <li>HTML & CSS</li>
+                  <li>Python</li>
+                  <li>Tensorflow and PyTorch</li>
                   <li>React & Redux</li>
-                  <li>Wordpress</li>
+                  <li>HTML & CSS</li>
+                  <li>MongoDB</li>
                   <li>Node.js</li>
-                  <li>Tensorflow</li>
                 </ul>
               </div>
             </Grid>
